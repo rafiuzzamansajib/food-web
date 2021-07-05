@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 450px;
+    width: auto;
+    padding-bottom: 120px;
+}
+.top-banner{
+    background-image: url("./image/Frame\ 57.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.half-width{
+    width:30%;
+    float: left;
+    margin-left: 15%;
+    padding-left: 2%;
+}
+h1{
+    font-size: bold;
+    font-weight: 900;
+    margin-top: 90px;
+}
+h1 span{
+    color: rgb(247, 85, 10);
+}
+.half-width img{
+    width: 100%;
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, rgb(122, 228, 255), rgb(7, 111, 143));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+p{
+    color: rgb(90, 87, 87);
+    margin: 5% 0 20% 0% ;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.masterchef{
+    background-image: url("./image/Frame\ 56.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h2{
+    font-size: 40px;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area h3{
+    color: orange;
+}
+
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
