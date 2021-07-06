@@ -78,7 +78,7 @@ p{
     text-align: center;
     margin: 2% 20%;
 }
-.food-item div{
+.food-item .half-width2{
     box-shadow: 5px 7px 40px gray;
     border-radius: 30px;
     height: 110%;
@@ -94,6 +94,38 @@ p{
     margin-top: 5%;
 }
 .half-width2 p{
+    font-size: 15px;
+    text-align: left;
+    margin:2%;
+    font-family: cursive;
+}
+.reviwes{
+    background-color: white;
+    margin-bottom: -13%;
+}
+.rev h2{
+    text-align: center;
+    font-family: cursive;
+    margin-top: 15%;
+    font-size: 35px;
+    color: rgb(97, 104, 107);
+}
+.reviwes .quality {
+    box-shadow: 5px 7px 40px rgb(7, 189, 221);
+    border-radius: 30px;
+    height: 50%;
+    margin-left: 4.5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.quality h2{
+    font-size: 25px;
+    color: darkgrey;
+    font-family: monospace;
+    text-align: left;
+    margin-top: 5%;
+}
+.quality p{
     font-size: 15px;
     text-align: left;
     margin:2%;
@@ -117,4 +149,5 @@ p{
 }
 .footer p{
     text-align: center;
-}
+    font-family: cursive;
+} 
