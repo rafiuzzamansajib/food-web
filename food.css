@@ -3,7 +3,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 section{
-    height: 450px;
+    height: 500px;
     width: auto;
     padding-bottom: 120px;
 }
@@ -19,15 +19,16 @@ section{
     padding-left: 2%;
 }
 h1{
-    font-size: bold;
+    font-size: 35px;
     font-weight: 900;
     margin-top: 90px;
+    font-family: monospace;
 }
 h1 span{
-    color: rgb(247, 85, 10);
+    color: rgb(10, 93, 247);
 }
 .half-width img{
-    width: 100%;
+    width: 485px;
 }
 .anchor-button{
     text-decoration: none;
@@ -45,34 +46,75 @@ p{
 .masterchef{
     background-image: url("./image/Frame\ 56.jpg");
     background-repeat: no-repeat;
-    background-position: right;
+    background-size: 100%;
 }
-h2{
-    font-size: 40px;
+.half-width1{
+    width:25%;
+    float: left;
+    margin-left: 15%;
+    padding-left: 2%;
 }
-.experience-area{
-    background-image: url("images/exp-bg.png");
+.half-width1 img{
+    width: 100%;
+    margin-top: 25%;
+}
+.half-width1 h2{
+    font-size: 30px; 
+    margin-top: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.food-item{
+    background-color: white;
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: left;
+    margin: 0;
 }
-.experience-area h3{
-    color: orange;
+.food-item h2{
+    text-align: center;
+    margin-top: 8%;
+    font-size: 35px;
 }
-
-.experience-area div{
+.food-item p{
+    text-align: center;
+    margin: 2% 20%;
+}
+.food-item div{
     box-shadow: 5px 7px 40px gray;
-    height: 80%;
+    border-radius: 30px;
+    height: 110%;
+    margin-left: 4.5%;
 }
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato);
-    border-image-slice: 1;
+.half-width2 img{
+    width: 92%;
+    margin-top: 8%;
 }
-#baby-web{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
-    border-image-slice: 1;
+.half-width2 h2{
+    font-size: 25px;
+    text-align: left;
+    margin-top: 5%;
 }
-footer p{
+.half-width2 p{
+    font-size: 15px;
+    text-align: left;
+    margin:2%;
+    font-family: cursive;
+}
+.footer{
+    background-color: black;
+    background-size: cover;
+    margin-top: 150px;
+    margin-bottom: 0%;
+    height: 250px;
+}
+.footer h3{
+    text-align: center;
+    color: rgb(134, 134, 131);
+    padding-top: 4%;
+    font-size: 35px;
+}
+.footer h3 span{
+    color: dodgerblue;
+}
+.footer p{
     text-align: center;
 }
